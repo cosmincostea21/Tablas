@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <table style="border:1px solid black">
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>Pérez</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eva</td>
+            <td>López</td>
+            <td>32</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>Caption y RowSpan</h1>
+    <table>
+        <caption>Teléfonos</caption>
+        <tr>
+            <th>Nombre</th>
+            <th colspan="2">Teléfono</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555222777</td>
+            <td>444555888</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>RowSpan</h1>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <td>Juan</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telefono</th>
+            <td>888999666</td>
+        </tr>
+        <tr>
+            <td>8889999666</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>Propiedades por columnas</h1>
+    <table>
+        <colgroup>
+            <col style="background-color: red;">
+            <col style="background-color: blue;">
+            <col style="background-color: yellow;">
+        
+        </colgroup>
+        <tr>
+            <th>ISBN</th>
+            <th>Título</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>333666999</td>
+            <td>Empezando HTML</td>
+            <td>53€</td>
+        </tr>
+        <tr>
+            <td>5869207</td>
+            <td>Intro a CSS</td>
+            <td>49€</td>
+        </tr>
+
+
+    </table>
+
+    
+</body>
+</html>
